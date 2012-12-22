@@ -9,17 +9,17 @@ Changelog
 -------------------------
 
 v1:
-* f/folk_assignGear_acre - Modified to fit PA commsig (343s for Squad Level, 148s for SL, 117 for CAS/Armour/LAV).
+* *f/folk_assignGear_acre* - Modified to fit PA commsig (343s for Squad Level, 148s for SL, 117 for CAS/Armour/LAV).
 
-* f/folk_assignGear_us
-f/folk_assignGear_usmc - Both US and USMC using same ORBAT currently, MAT/MORT/HMG and most units alterered to use ACE weapons and rucks, Medics equipped with ACE Wounds items in rucks.
+* *f/folk_assignGear_us, 
+f/folk_assignGear_usmc* - Both US and USMC using same ORBAT currently, MAT/MORT/HMG and most units alterered to use ACE weapons and rucks, Medics equipped with ACE Wounds items in rucks.
 
-* f/folk_assignGear_gue
-f/folk_assignGear_ins - Both GUE and INS using same ORBAT, MAT/HMG changed to ACE OPFOR weapons, mortars left as ACE_M252 (explained in "Future plans" list), Medics equipped with ACE Wounds items in rucks.
+* *f/folk_assignGear_gue, 
+f/folk_assignGear_ins* - Both GUE and INS using same ORBAT, MAT/HMG changed to ACE OPFOR weapons, mortars left as ACE_M252 (explained in "Future plans" list), Medics equipped with ACE Wounds items in rucks.
 
-* f/folk_assignGear_* - All modified gear scripts have IFAKs and ACE Wounds compatibility. 
+* *f/folk_assignGear_* - All modified gear scripts have IFAKs and ACE Wounds compatibility. 
 
-* init.sqf
+* *init.sqf*
   * CBA Custom Event Handler, for group deployment.
   * Toggleable addAction, for leaders of groups, for group deployment. 
   * Disabled auto-assignation of ACE Wounds gear to units (was filling rucks of non-medics).
@@ -27,9 +27,9 @@ f/folk_assignGear_ins - Both GUE and INS using same ORBAT, MAT/HMG changed to AC
   .
 
 
-* PA/deployment           - Various scripts needed for group deployment to function.
+* *PA/deployment*           - Various scripts needed for group deployment to function.
 
-* PA/aiHearTalking        - "AI hear players talking on ACRE" - UO code, credits in script.
+* *PA/aiHearTalking*        - "AI hear players talking on ACRE" - UO code, credits in script.
 
 Future Plans
 -------------------------
