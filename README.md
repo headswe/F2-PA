@@ -37,12 +37,12 @@ v1.1:
   * ACE Configuration Changes
   * Split radio frequencies per side
   * Moved aiHearTalking to PA/ACRE/
-  
+ 
   .
-
 
 * *onPlayerRespawnAsSeagull.sqs*  
   * Possible dead channel fix. (All spectators should be able to hear each other without changing channel.)
+  .
 
 * *PA/ACRE/setRadioFrequencies.sqf*
   * Script for splitting radio frequencies per side
