@@ -24,6 +24,7 @@ f/folk_assignGear_ins* - Both GUE and INS using same gear, MAT/HMG changed to AC
   * Toggleable addAction, for leaders of groups, for group deployment. 
   * Disabled auto-assignation of ACE Wounds gear to units (was filling rucks of non-medics).
   * UO code - "AI hear players talking on ACRE" - Credits specified in script.
+  .
 
 
 * *PA/deployment*           - Various scripts needed for group deployment to function.
@@ -35,7 +36,8 @@ v1.1:
 * *init.sqf*
   * ACE Configuration Changes
   * Split radio frequencies per side
-  * Moved aiHearTalking to PA/ACRE/.
+  * Moved aiHearTalking to PA/ACRE/
+  .
 
 
 * *onPlayerRespawnAsSeagull.sqs*  
