@@ -18,8 +18,8 @@ if (!isDedicated) then {
 	switch (side player) do 
 	{ 
 	  case west: {{ _x = _vary + 0.2; _longrangechannels set [_numy,_vary + 0.2];  _vary = _vary + 2; _numy = _numy + 1;}foreach _longrangechannels;}; 
-	  case east: {{ _x = _vary + 0.2; _longrangechannels set [_numy,_vary + 0.2];  _vary = _vary + 2; _numy = _numy + 1;}foreach _longrangechannels;}; 
-	  case resistance: {{ _x = _vary + 0.2; _longrangechannels set [_numy,_vary + 0.2];  _vary = _vary + 2; _numy = _numy + 1;}foreach _longrangechannels;}
+	  case east: {{ _x = _vary + 0.4; _longrangechannels set [_numy,_vary + 0.4];  _vary = _vary + 2; _numy = _numy + 1;}foreach _longrangechannels;}; 
+	  case resistance: {{ _x = _vary + 0.6; _longrangechannels set [_numy,_vary + 0.6];  _vary = _vary + 2; _numy = _numy + 1;}foreach _longrangechannels;}
 	};
 	
 	_varx = 2400;
