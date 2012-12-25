@@ -37,7 +37,6 @@ v1.1:
   * ACE Configuration Changes
   * Split radio frequencies per side
   * Moved aiHearTalking to PA/ACRE/
- 
   .
 
 * *onPlayerRespawnAsSeagull.sqs*  
