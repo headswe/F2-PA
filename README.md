@@ -31,17 +31,36 @@ f/folk_assignGear_ins* - Both GUE and INS using same gear, MAT/HMG changed to AC
 
 * *PA/aiHearTalking*        - "AI hear players talking on ACRE" - UO code, credits in script.
 
+v1.1:
+
+* *init.sqf*
+  * ACE Configuration Changes
+  * Split radio frequencies per side
+  * Moved aiHearTalking to PA/ACRE/
+  .
+
+
+* *onPlayerRespawnAsSeagull.sqs*  
+  * Possible dead channel fix. (All spectators should be able to hear each other without changing channel.)
+
+* *PA/ACRE/setRadioFrequencies.sqf*
+  * Script for splitting radio frequencies per side.
+
 Future Plans
 -------------------------
 
-* Change mortars for OPFOR/INDEP factions to use appropriate gear, not M252s - Needs confirmation from someone experienced with mortars
-
-* Alter how Group Deployment works, to be more efficient, less messy, and fully comment scripts, for readability.
-
-* Add a radio script to seperate radio frequencies based on side. (UO Code?)
-
-* Move third-party scripts to seperate folder, from "PA".
+HIGH:
 
 * Continue modification of gear scripts both to reflect normal PA gear and to use ACE gear.
 
+MEDIUM:
+
+* Alter how Group Deployment works, to be more efficient, less messy, and fully comment scripts, for readability.
+
+LOW:
+
+* Change mortars for OPFOR/INDEP factions to use appropriate gear, not M252s - Needs confirmation from someone experienced with mortars
+
 * Possibly modify GUE/INS rifles/carbines, don't know much about OPFOR gear, so may be wrong setup.
+
+* Move third-party scripts to seperate folder, from "PA".

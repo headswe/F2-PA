@@ -260,6 +260,15 @@ if (isServer) then
 
 // ====================================================================================
 
+// PA - ACRE Radio Frequencies
+
+if (!(isNull player)) then
+{
+[] execVM "PA\ACRE\setRadioFrequencies.sqf";
+};
+
+// ====================================================================================
+
 // PA - Deploy Group Action
 
 if( leader player == player ) then
@@ -291,6 +300,6 @@ if (!isDedicated) then
                 waitUntil {!isNull player};
         };
                   
-        [] execVM "PA\aiHearTalking.sqf";
+        [] execVM "PA\ACRE\aiHearTalking.sqf";
 
 };
