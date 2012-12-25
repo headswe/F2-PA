@@ -8,6 +8,23 @@ An alteration of the F2 framework, to be more compatible with ACE weaponry/syste
 Changelog
 -------------------------
 
+v1.1:
+
+* *init.sqf*
+  * ACE Configuration Changes
+  * Split radio frequencies per side
+  * Moved aiHearTalking to PA/ACRE/
+  .
+
+
+* *onPlayerRespawnAsSeagull.sqs*  
+  * Possible dead channel fix. (All spectators should be able to hear each other without changing channel.)
+
+
+* *PA/ACRE/setRadioFrequencies.sqf*
+  * Script for splitting radio frequencies per side
+  
+
 v1:
 * *f/folk_assignGear_acre* - Modified to fit PA commsig (343s for Squad Level, 148s for SL, 117 for CAS/Armour/LAV).
 
@@ -23,28 +40,13 @@ f/folk_assignGear_ins* - Both GUE and INS using same gear, MAT/HMG changed to AC
   * CBA Custom Event Handler, for group deployment.
   * Toggleable addAction, for leaders of groups, for group deployment. 
   * Disabled auto-assignation of ACE Wounds gear to units (was filling rucks of non-medics).
-  * UO code - "AI hear players talking on ACRE" - Credits specified in script.  
+  * UO code - "AI hear players talking on ACRE" - Credits specified in script.
   .
 
 
 * *PA/deployment*           - Various scripts needed for group deployment to function.
 
 * *PA/aiHearTalking*        - "AI hear players talking on ACRE" - UO code, credits in script.
-
-v1.1:
-
-* *init.sqf*
-  * ACE Configuration Changes
-  * Split radio frequencies per side
-  * Moved aiHearTalking to PA/ACRE/
-  .
-
-
-* *onPlayerRespawnAsSeagull.sqs*  
-  * Possible dead channel fix. (All spectators should be able to hear each other without changing channel.)
-
-* *PA/ACRE/setRadioFrequencies.sqf*
-  * Script for splitting radio frequencies per side.
 
 Future Plans
 -------------------------
