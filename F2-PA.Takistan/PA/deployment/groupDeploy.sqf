@@ -5,11 +5,7 @@ marked = false;
 _newdir = getDir(_unit);
 _group = group _unit;
 
-if(!(_unit == _caller)) exitWith {
-
-hint "Don't use the deploy action unless you're a group leader, fucker.";
-
-};
+if(!(_unit == _caller)) exitWith {};
 
 _unit removeAction _id;
 

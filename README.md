@@ -12,10 +12,10 @@ v1:
 * *f/folk_assignGear_acre* - Modified to fit PA commsig (343s for Squad Level, 148s for SL, 117 for CAS/Armour/LAV).
 
 * *f/folk_assignGear_us, 
-f/folk_assignGear_usmc* - Both US and USMC using same ORBAT currently, MAT/MORT/HMG and most units alterered to use ACE weapons and rucks, Medics equipped with ACE Wounds items in rucks.
+f/folk_assignGear_usmc* - Both US and USMC using same gear currently, MAT/MORT/HMG and most units alterered to use ACE weapons and rucks, Medics equipped with ACE Wounds items in rucks.
 
 * *f/folk_assignGear_gue, 
-f/folk_assignGear_ins* - Both GUE and INS using same ORBAT, MAT/HMG changed to ACE OPFOR weapons, mortars left as ACE_M252 (explained in "Future plans" list), Medics equipped with ACE Wounds items in rucks.
+f/folk_assignGear_ins* - Both GUE and INS using same gear, MAT/HMG changed to ACE OPFOR weapons, mortars left as ACE_M252 (explained in "Future plans" list), Medics equipped with ACE Wounds items in rucks.
 
 * *f/folk_assignGear_* - All modified gear scripts have IFAKs and ACE Wounds compatibility. 
 
@@ -42,6 +42,6 @@ Future Plans
 
 * Move third-party scripts to seperate folder, from "PA".
 
-* Continue modification of gear scripts to reflect both normal PA ORBAT and to use ACE gear.
+* Continue modification of gear scripts both to reflect normal PA gear and to use ACE gear.
 
 * Possibly modify GUE/INS rifles/carbines, don't know much about OPFOR gear, so may be wrong setup.

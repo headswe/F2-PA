@@ -275,6 +275,13 @@ player setVariable ["ace_sys_wounds_no_medical_gear", true];
 
 // ====================================================================================
 
+// PA - ACE ViewDistance Config
+
+missionNamespace setVariable ["ace_viewdistance_limit",8000];
+ace_settings_enable_vd_change = true;
+
+// ====================================================================================
+
 // UO - AI hear player talking in ACRE
 
 if (!isDedicated) then

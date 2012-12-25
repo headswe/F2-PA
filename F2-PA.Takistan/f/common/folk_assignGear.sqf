@@ -214,9 +214,11 @@ if (_faction == "bis_civ_special") then {
 // The following block of code executes only if the ACRE parameter is set to true; it 
 // automatically includes a file which contains the appropriate equipment data.
 
-if (_useACRE == 1) then {
+// PA Change - Was causing radios not to spawn in editor, due to lack of a parameter array (?).
+
+//if (_useACRE == 1) then {
 #include "folk_assignGear_acre.sqf"
-};
+//};
 
 // ====================================================================================
 
