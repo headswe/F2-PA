@@ -23,8 +23,7 @@ f/folk_assignGear_ins* - Both GUE and INS using same gear, MAT/HMG changed to AC
   * CBA Custom Event Handler, for group deployment.
   * Toggleable addAction, for leaders of groups, for group deployment. 
   * Disabled auto-assignation of ACE Wounds gear to units (was filling rucks of non-medics).
-  * UO code - "AI hear players talking on ACRE" - Credits specified in script.  
-  .
+  * UO code - "AI hear players talking on ACRE" - Credits specified in script.
 
 
 * *PA/deployment*           - Various scripts needed for group deployment to function.
