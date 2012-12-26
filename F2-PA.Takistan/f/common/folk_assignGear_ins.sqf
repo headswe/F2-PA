@@ -190,10 +190,6 @@ switch (_typeofUnit) do
 		
 		_unit addWeapon "ACE_ALICE_Backpack";
 
-		_success = [_unit, "ACE_LargeBandage", 10] call ACE_fnc_PackMagazine;
-		_success = [_unit, "ACE_Morphine", 10] call ACE_fnc_PackMagazine;
-		_success = [_unit, "ACE_Epinephrine", 10] call ACE_fnc_PackMagazine;
-		_success = [_unit, "ACE_Medkit", 4] call ACE_fnc_PackMagazine;		
 	};
 
 // LOADOUT: FIRE TEAM LEADER

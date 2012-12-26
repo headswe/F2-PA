@@ -112,8 +112,6 @@ _unit = _this select 1;							// expecting name of unit; originally passed by us
 removeBackpack _unit;
 removeallweapons _unit;
 _unit addweapon "NVGoggles"; 					// add universal NVG for this faction
-_unit addWeapon "ACE_Earplugs";
-_success = [_unit, 1, 1, 1] call ACE_fnc_PackIFAK;
 
 //removeAllItems _unit;						// remove default items: map, compass, watch, radio (and GPS for team/squad leaders)
 ////_unit addweapon "ItemGPS";					// add universal GPS for this faction (nb: misc items not cleared
@@ -188,10 +186,6 @@ switch (_typeofUnit) do
 
 		_unit addWeapon "ACE_CharliePack";
 			
-		_success = [_unit, "ACE_LargeBandage", 10] call ACE_fnc_PackMagazine;
-		_success = [_unit, "ACE_Morphine", 10] call ACE_fnc_PackMagazine;
-		_success = [_unit, "ACE_Epinephrine", 10] call ACE_fnc_PackMagazine;
-		_success = [_unit, "ACE_Medkit", 4] call ACE_fnc_PackMagazine;
 	};
 
 // LOADOUT: FIRE TEAM LEADER

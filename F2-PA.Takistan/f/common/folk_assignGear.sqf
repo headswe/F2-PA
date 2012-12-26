@@ -218,6 +218,7 @@ if (_faction == "bis_civ_special") then {
 
 //if (_useACRE == 1) then {
 #include "folk_assignGear_acre.sqf"
+#include "folk_assignGear_ace.sqf"
 //};
 
 // ====================================================================================
