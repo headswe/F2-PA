@@ -60,7 +60,7 @@ _grenade = "HandGrenade_West"; _smokegrenade = "SmokeShell";_smokegrenadegreen =
 _bagmedium = "US_Assault_Pack_EP1";		// 8+ slots																							// Backpack for assistant gunners (AAR, AMMG, AMAT, AHAT), so that they don't have to drop ammo themselves
 _baglarge =  "US_Backpack_EP1"; 		// 12+ slots
 		//  6 Slots: "CZ_Vestpouch_EP1"
-		//  8 Slots: "US_Assault_Pack_EP1", "US_Patrol_Pack_EP1", "TK_Assault_Pack_EP1", "TK_RPG_Backpack_EP1"
+		//  8 Slots: "US_Assault_Pack_EP1", "US_Patrol_Pack_EP1", "ACE_Rucksack_EAST", "TK_RPG_Backpack_EP1"
 		// 12 Slots: "US_Backpack_EP1", "TK_ALICE_Pack_EP1",
 		// 13 Slots: "BAF_AssaultPack_RifleAmmo"
 		// 14 Slots: "DE_Backpack_Specops_EP1", "CZ_Backpack_EP1"
