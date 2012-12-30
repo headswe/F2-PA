@@ -3,6 +3,6 @@
 ; ====================================================================================
 
 ; Initialize spectating script when player dies:
-_this execVM "f\common\f_spect\specta.sqf";
+_this call ace_fnc_startSpectator;
 
 execVM "PA\ACRE\spectatorInit.sqf";
