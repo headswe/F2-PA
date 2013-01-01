@@ -46,13 +46,15 @@ class Mission
 		"ace_sys_vehicledamage",
 		"ace_sys_aitalk",
 		"ace_sys_wounds",
-		"ace_sys_tracking"
+		"ace_sys_tracking",
+		"ace_c_men"
 	};
 	addOnsAuto[]=
 	{
 		"cacharacters_e",
 		"ca_modules_functions",
 		"cacharacters_pmc",
+		"ace_c_men",
 		"CACharacters_BAF",
 		"cacharacters2",
 		"ace_sys_repair",
@@ -4448,10 +4450,10 @@ class Mission
 				class Item0
 				{
 					position[]={721.51825,569.91638,60.341858};
-					azimut=1.4615065;
+					azimut=1.4615099;
 					id=266;
 					side="WEST";
-					vehicle="US_Soldier_EP1";
+					vehicle="ACE_US_Soldier_M252_G";
 					player="PLAY CDG";
 					leader=1;
 					rank="CORPORAL";
@@ -4463,10 +4465,10 @@ class Mission
 				class Item1
 				{
 					position[]={724.69293,568.39178,57.823853};
-					azimut=1.4615065;
+					azimut=1.4615099;
 					id=267;
 					side="WEST";
-					vehicle="US_Soldier_EP1";
+					vehicle="ACE_US_Soldier_M252_AG";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_MTR1_AG";
@@ -16776,7 +16778,7 @@ class Mission
 					azimut=1.4615099;
 					id=1188;
 					side="WEST";
-					vehicle="US_Soldier_EP1";
+					vehicle="ACE_US_Soldier_M252_AB";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.5;
