@@ -275,10 +275,19 @@ player setVariable ["ace_sys_wounds_no_medical_gear", true];
 
 // ====================================================================================
 
-// PA - ACE ViewDistance Config
+// PA - ACE Settings
 
-missionNamespace setVariable ["ace_viewdistance_limit",8000];
+missionNamespace setVariable ["ace_viewdistance_limit",8000];	// Sets ACE Settings viewdistance
 ace_settings_enable_vd_change = true;
+
+ace_sys_eject_fnc_weaponCheckEnabled = {false}; 				// Disables loss of gear for pilots
+
+ace_sys_aitalk_talkforplayer = false;				// Disables AI talk on players
+
+ACE_sys_tracking_markers_enabled_override = true;	// Disables unit markers on map
+ACE_sys_tracking_MarkersEnabled = false;
+
+ace_sys_grenadethrow2_enabled = true;				// Alternate grenade throwing
 
 // ====================================================================================
 
