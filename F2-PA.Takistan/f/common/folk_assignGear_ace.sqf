@@ -33,6 +33,11 @@ switch (_typeofUnit) do
 		_success = [_unit, "ACE_Medkit", 4] call ACE_fnc_PackMagazine;
 	};
 	
+	default
+    {
+        
+    };
+	
 // ====================================================================================
 
 // END SWITCH FOR DEFINE UNIT TYPE LOADOUTS

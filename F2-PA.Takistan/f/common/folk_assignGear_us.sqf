@@ -44,13 +44,13 @@
 
 // GENERAL EQUIPMENT USED BY MULTIPLE CLASSES
 
-_rifle = "ACE_M16A4_Iron"; _riflemag = "ACE_30Rnd_556x45_S_Stanag";																			// Standard Riflemen (Spotter, HMG Assistant Gunner, MMG Assistant Gunner, Assistant Automatic Rifleman, MAT Assistant Gunner, HAT Assistant Gunner, MTR Assistant Gunner, Rifleman)
+_rifle = "ACE_M16A4_Iron"; _riflemag = "30Rnd_556x45_Stanag";																				// Standard Riflemen (Spotter, HMG Assistant Gunner, MMG Assistant Gunner, Assistant Automatic Rifleman, MAT Assistant Gunner, HAT Assistant Gunner, MTR Assistant Gunner, Rifleman)
 
-_carbine = "ACE_M4_C"; _carbinemag = "ACE_30Rnd_556x45_S_Stanag"; 																			// Standard Carabineer (Medic, HMG Gunner, Rifleman (AT), Rifleman (AA), MAT Gunner, HAT Gunner, MTR Gunner, Carabineer)
+_carbine = "ACE_M4_C"; _carbinemag = "30Rnd_556x45_Stanag"; 																				// Standard Carabineer (Medic, HMG Gunner, Rifleman (AT), Rifleman (AA), MAT Gunner, HAT Gunner, MTR Gunner, Carabineer)
 
 _smg = "MP5A5"; _smgmag = "30Rnd_9x19_MP5";																									// Standard Submachine Gun/Personal Defence Weapon (Vehicle Crew, Aircraft Pilot, Submachinegunner)
 
-_glrifle = "ACE_M4A1_AIM_GL"; _glriflemag = "ACE_30Rnd_556x45_S_Stanag"; _glmag = "1Rnd_HE_M203";											// Rifle with GL and HE grenades (CO, DC, FTLs)
+_glrifle = "ACE_M4A1_AIM_GL"; _glriflemag = "30Rnd_556x45_Stanag"; _glmag = "1Rnd_HE_M203";													// Rifle with GL and HE grenades (CO, DC, FTLs)
 _glsmokewhite = "1Rnd_Smoke_M203"; _glsmokegreen = "1Rnd_SmokeGreen_M203"; _glsmokered = "1Rnd_SmokeRed_M203";    							// Smoke for FTLs, Squad Leaders, etc 
 _glflarewhite = "FlareWhite_M203"; _glflarered = "FlareRed_M203"; _glflareyellow = "FlareYellow_M203"; _glflaregreen = "FlareGreen_M203";	// Flares for FTLs, Squad Leaders, etc
 
@@ -70,7 +70,7 @@ _baglarge =  "ACE_CharliePack"; 		// 12+ slots
 
 // UNIQUE, ROLE-SPECIFIC EQUIPMENT
 
-_AR = "M249_EP1"; _ARmag = "ACE_100Rnd_556x45_T_M249";																						// Automatic Rifleman
+_AR = "M249_EP1"; _ARmag = "ACE_100Rnd_556x45_T_M249";																							// Automatic Rifleman
 
 _MMG = "M240"; _MMGmag = "100Rnd_762x51_M240";																								// Medium MG
 

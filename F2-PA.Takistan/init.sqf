@@ -247,7 +247,7 @@ player setVariable ["BIS_noCoreConversations", true];
 // F2 - Join Group Action
 // Credits: Please see the F2 online manual (http://www.ferstaberinde.com/f2/en/)
 
-[false] execVM "f\common\f_groupJoinAddOption.sqf";
+// [false] execVM "f\common\f_groupJoinAddOption.sqf";
 
 // ====================================================================================
 
@@ -256,15 +256,6 @@ player setVariable ["BIS_noCoreConversations", true];
 if (isServer) then 
 { 
 ["groupDeploy", { _handle = [(_this select 0),(_this select 1),(_this select 2)] execVM "PA\deployment\GroupTeleport.sqf"; }] call CBA_fnc_addEventHandler; 
-};
-
-// ====================================================================================
-
-// PA - ACRE Radio Frequencies
-
-if (!(isNull player)) then
-{
-[] execVM "PA\ACRE\setRadioFrequencies.sqf";
 };
 
 // ====================================================================================

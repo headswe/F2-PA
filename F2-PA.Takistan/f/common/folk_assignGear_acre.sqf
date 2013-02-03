@@ -58,6 +58,22 @@ _unit = _this select 1;							// expecting name of unit; originally passed by us
 
 // ====================================================================================
 
+// CLEAR ALL RADIOS
+
+_this execVM "PA\ACRE\clearRadios.sqf";
+
+waitUntil{radiosDeleted};
+
+// ====================================================================================
+
+// Assign 343
+
+_currentcount = count acre_sys_radio_currentRadioList;
+_unit addWeapon _radio3;
+waitUntil {count acre_sys_radio_currentRadioList > _currentcount};
+
+// ====================================================================================
+
 // DEFINE UNIT TYPE LOADOUTS
 // The following blocks of code define loadouts for each type of unit (the unit type
 // is passed to the script in the first variable)
@@ -70,19 +86,25 @@ switch (_typeofUnit) do
 // LOADOUT: COMMANDER
 	case "co":
 	{
+		_currentcount = count acre_sys_radio_currentRadioList;
 		_unit addWeapon _radio2;
+		waitUntil {count acre_sys_radio_currentRadioList > _currentcount};
 	};
   
 // LOADOUT: DEPUTY COMMANDER AND SQUAD LEADER
 	case "dc":
 	{
+		_currentcount = count acre_sys_radio_currentRadioList;
 		_unit addWeapon _radio2;
+		waitUntil {count acre_sys_radio_currentRadioList > _currentcount};
 	}; 
 
 // LOADOUT: MEDIC
 	case "m":
 	{
+		_currentcount = count acre_sys_radio_currentRadioList;
 		_unit addWeapon _radio2;
+		waitUntil {count acre_sys_radio_currentRadioList > _currentcount};
 	};
 
 // LOADOUT: FIRE TEAM LEADER
@@ -113,7 +135,9 @@ switch (_typeofUnit) do
 // LOADOUT: SURFACE TO AIR MISSILE GUNNER 
 	case "samg":
 	{
+		_currentcount = count acre_sys_radio_currentRadioList;
 		_unit addWeapon _radio2;
+		waitUntil {count acre_sys_radio_currentRadioList > _currentcount};
 	};			
 	
 // LOADOUT: ASSISTANT SURFACE TO AIR MISSILE GUNNER
@@ -125,7 +149,9 @@ switch (_typeofUnit) do
 // LOADOUT: MEDIUM MG GUNNER	
 	case "mmgg":
 	{
+		_currentcount = count acre_sys_radio_currentRadioList;
 		_unit addWeapon _radio2;
+		waitUntil {count acre_sys_radio_currentRadioList > _currentcount};
 	};			
 
 // LOADOUT: MEDIUM MG ASSISTANT GUNNER	
@@ -137,7 +163,9 @@ switch (_typeofUnit) do
 // LOADOUT: HEAVY MG GUNNER
 	case "hmgg":
 	{
+		_currentcount = count acre_sys_radio_currentRadioList;
 		_unit addWeapon _radio2;
+		waitUntil {count acre_sys_radio_currentRadioList > _currentcount};
 	};	
 	
 // LOADOUT: HEAVY MG ASSISTANT GUNNER
@@ -149,7 +177,9 @@ switch (_typeofUnit) do
 // LOADOUT: MEDIUM AT GUNNER
 	case "matg":
 	{
-			_unit addWeapon _radio2;
+		_currentcount = count acre_sys_radio_currentRadioList;
+		_unit addWeapon _radio2;
+		waitUntil {count acre_sys_radio_currentRadioList > _currentcount};
 	};	
 	
 // LOADOUT: MEDIUM AT ASSISTANT GUNNER	
@@ -161,7 +191,9 @@ switch (_typeofUnit) do
 // LOADOUT: HEAVY AT GUNNER
 	case "hatg":
 	{
-			_unit addWeapon _radio2;
+		_currentcount = count acre_sys_radio_currentRadioList;
+		_unit addWeapon _radio2;
+		waitUntil {count acre_sys_radio_currentRadioList > _currentcount};
 	};	
 	
 // LOADOUT: HEAVY AT ASSISTANT GUNNER	
@@ -173,19 +205,25 @@ switch (_typeofUnit) do
 // LOADOUT: MORTAR GUNNER
 	case "mtrg":
 	{
+		_currentcount = count acre_sys_radio_currentRadioList;
 		_unit addWeapon _radio2;
+		waitUntil {count acre_sys_radio_currentRadioList > _currentcount};
 	};	
 	
 // LOADOUT: MORTAR ASSISTANT GUNNER
 	case "mtrag":
 	{
-		
+		_currentcount = count acre_sys_radio_currentRadioList;
+		_unit addWeapon _radio2;
+		waitUntil {count acre_sys_radio_currentRadioList > _currentcount};
 	};		
 	
 // LOADOUT: SNIPER
 	case "sn":
 	{
+		_currentcount = count acre_sys_radio_currentRadioList;
 		_unit addWeapon _radio2;
+		waitUntil {count acre_sys_radio_currentRadioList > _currentcount};
 	};		
 	
 // LOADOUT: SPOTTER
@@ -198,7 +236,9 @@ switch (_typeofUnit) do
 	case "c":
 	{
 		if(leader group _unit == _unit) then {
+				_currentcount = count acre_sys_radio_currentRadioList;
 				_unit addWeapon _radio1;
+				waitUntil {count acre_sys_radio_currentRadioList > _currentcount};
 			};
 			
 	};			
@@ -207,7 +247,9 @@ switch (_typeofUnit) do
 	case "p":
 	{
 		if(leader group _unit == _unit) then {
+				_currentcount = count acre_sys_radio_currentRadioList;
 				_unit addWeapon _radio1;
+				waitUntil {count acre_sys_radio_currentRadioList > _currentcount};
 			};
 							
 	};		

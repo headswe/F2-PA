@@ -9,6 +9,8 @@ if (!isDedicated) then {
   	waitUntil {!isNull player};
   };
   
+  frequenciesSet = false;
+  
   _longrangechannels = ["ACRE_PRC148"] call acre_api_fnc_getDefaultChannels;
   _shortrangechannels = ["ACRE_PRC343"] call acre_api_fnc_getDefaultChannels;
   
@@ -37,5 +39,7 @@ if (!isDedicated) then {
 	_ret = ["ACRE_PRC152", _longrangechannels ] call acre_api_fnc_setDefaultChannels;
 	
 	_ret = ["ACRE_PRC343", _shortrangechannels ] call acre_api_fnc_setDefaultChannels;
+	
+	frequenciesSet = true;
 
  };

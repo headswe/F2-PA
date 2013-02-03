@@ -217,7 +217,7 @@ if (_faction == "bis_civ_special") then {
 // PA Change - Was causing radios not to spawn in editor, due to lack of a parameter array (?).
 
 //if (_useACRE == 1) then {
-#include "folk_assignGear_acre.sqf"
+_this execVM "f\common\folk_assignGear_acre.sqf";
 #include "folk_assignGear_ace.sqf"
 //};
 
